@@ -86,9 +86,9 @@ python main.py
 | 파일 | 설명 |
 | --- | --- |
 | `main.py` | 데이터 전처리, 특징 추출, 모델 학습 및 성능 평가 |
-| `results/confusion_trial_SVM.png` | SVM Trial-level Confusion Matrix |
-| `results/confusion_trial_RF.png` | Random Forest Trial-level Confusion Matrix |
-| `results/confusion_trial_XGB.png` | XGBoost Trial-level Confusion Matrix |
+| `confusion_trial_SVM.png` | SVM Trial-level Confusion Matrix |
+| `confusion_trial_RF.png` | Random Forest Trial-level Confusion Matrix |
+| `confusion_trial_XGB.png` | XGBoost Trial-level Confusion Matrix |
 
 ## 2. 모델 성능 비교
 
@@ -146,7 +146,7 @@ SVM은 Random Forest 및 XGBoost와 통계적으로 유의한 성능 차이를 �
 
 ### SVM
 
-![SVM Confusion Matrix](results/confusion_trial_SVM.png)
+![SVM Confusion Matrix](confusion_trial_SVM.png)
 
 - 가장 잘 분류된 클래스: `30_open`
 - 상대적으로 오분류가 많았던 클래스: `30_pro`, `60_extor`, `60_fist`
@@ -155,7 +155,7 @@ SVM은 Random Forest 및 XGBoost와 통계적으로 유의한 성능 차이를 �
 
 ### Random Forest
 
-![Random Forest Confusion Matrix](results/confusion_trial_RF.png)
+![Random Forest Confusion Matrix](confusion_trial_RF.png)
 
 - 가장 잘 분류된 클래스: `30_fist`, `30_open`
 - 가장 많이 오분류된 클래스: `30_pro`
@@ -164,7 +164,7 @@ SVM은 Random Forest 및 XGBoost와 통계적으로 유의한 성능 차이를 �
 
 ### XGBoost
 
-![XGBoost Confusion Matrix](results/confusion_trial_XGB.png)
+![XGBoost Confusion Matrix](confusion_trial_XGB.png)
 
 - 가장 잘 분류된 클래스: `30_fist`, `60_extor`
 - 상대적으로 오분류가 많았던 클래스: `30_pro`, `60_pro`
