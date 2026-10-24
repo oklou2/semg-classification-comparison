@@ -50,7 +50,7 @@ DATASET_URL = (
     "sEMG-Hand-Gesture-Elbow-Angle-Dataset.git"
 )
 
-RESULT_DIR = "results"
+RESULT_DIR = "."
 os.makedirs(RESULT_DIR, exist_ok=True)
 
 
