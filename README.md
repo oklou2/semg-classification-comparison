@@ -78,6 +78,7 @@ sEMG-based hand gesture and elbow angle classification using SVM, Random Forest,
 ### 실행 방법
 
 ```bash
+pip install numpy pandas matplotlib scipy scikit-learn xgboost
 python main.py
 ```
 
