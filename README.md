@@ -1,5 +1,3 @@
-# semg-classification-comparison
-sEMG-based hand gesture and elbow angle classification using SVM, Random Forest, and XGBoost
 # sEMG 손동작 및 팔꿈치 각도 분류 모델 비교
 
 본 프로젝트는 sEMG(surface Electromyography) 신호를 이용하여 손동작과 팔꿈치 각도를 동시에 분류하고, SVM, Random Forest, XGBoost의 성능을 비교한 재현 실험이다.
